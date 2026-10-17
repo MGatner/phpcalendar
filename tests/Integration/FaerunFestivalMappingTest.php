@@ -21,7 +21,9 @@ use PHPUnit\Framework\TestCase;
 final class FaerunFestivalMappingTest extends TestCase
 {
     private Calendar $gregorian;
+
     private Calendar $faerun;
+
     private CalendarMapping $mapping;
 
     protected function setUp(): void
